@@ -11,13 +11,13 @@ This is a docker-compose stack for running the wrk-book, wrk-ork and app-node se
 
 ### Usage
 
-Create Configuration
+#### Create Configuration
 
 ```
 ./setup-config.sh
 ```
 
-Configure Environment
+#### Configure Environment
 
 
 [env/wrk-book.env](env/wrk-book.env)
@@ -27,14 +27,13 @@ Configure Environment
 [env/app-node.env](env/app-node.env)
 
 
-
-Start Compose Stack
+#### Start Compose Stack
 
 ```
 docker compose up -d
 ```
 
-View Logs
+#### View Logs
 
 ```
 docker compose logs wrk-book
@@ -42,12 +41,13 @@ docker compose logs wrk-ork
 docker compose logs app-node
 ```
 
-Grafana
+#### Grafana
+
 ```
 http://localhost:3001 [admin:admin]
 ```
 
-Stop Compose Stack
+#### Stop Compose Stack
 
 ```
 docker compose down
