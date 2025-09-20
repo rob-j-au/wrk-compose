@@ -40,6 +40,11 @@ docker compose logs wrk-ork
 docker compose logs app-node
 ```
 
+Grafana
+```
+http://localhost:3001 [admin:admin]
+```
+
 Stop Compose Stack
 
 ```
