@@ -1,12 +1,11 @@
 ## wrk-compose
-
-This is a docker-compose file for running the wrk-book, wrk-ork and app-node services with prometheus and grafana monitoring.
+This is a docker-compose stack for running the wrk-book, wrk-ork and app-node services with Prometheus and Grafana monitoring.
 
 - https://github.com/rob-j-au/wrk-book
 - https://github.com/rob-j-au/wrk-ork
 - https://github.com/rob-j-au/app-node
-
-
+- https://hub.docker.com/r/prom/prometheus
+- https://hub.docker.com/r/grafana/grafana
 
 
 
