@@ -20,9 +20,9 @@ Create Configuration
 Configure Environment
 
 ```
-/env/wrk-book.env
-/env/wrk-ork.env
-/env/app-node.env
+[env/wrk-book.env](env/wrk-book.env)
+[env/wrk-ork.env](env/wrk-ork.env)
+[env/app-node.env](env/app-node.env)
 ```
 
 
